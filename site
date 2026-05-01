@@ -3,62 +3,60 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfólio de Arte | Vitrine Digital</title>
+<title>amor.por.miniaturas | Portfólio</title>
 <style>
-body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; background-color: #f4f1ea; color: #4a3f35; }
-header { background-color: #795548; color: white; padding: 60px 20px; text-align: center; }
-.section-title { text-align: center; margin: 40px 0 20px; font-size: 1.8em; color: #5d4037; }
-.container { max-width: 1100px; margin: auto; padding: 0 20px 40px; }
-
-.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
-.card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 6px 15px rgba(0,0,0,0.08); position: relative; transition: 0.3s; }
-.card:hover { transform: translateY(-5px); }
-.card img { width: 100%; height: 250px; object-fit: cover; }
-.card-info { padding: 20px; text-align: center; }
-
-/* Etiquetas de Status */
-.status { position: absolute; top: 15px; left: 15px; padding: 5px 12px; border-radius: 20px; font-size: 0.8em; font-weight: bold; text-transform: uppercase; }
-.disponivel { background-color: #25d366; color: white; }
-.esgotado { background-color: #9e9e9e; color: white; }
-
-.btn-whats { display: block; background-color: #25d366; color: white; text-decoration: none; padding: 10px; border-radius: 6px; margin-top: 15px; font-weight: bold; }
-.msg-esgotado { color: #888; font-style: italic; margin-top: 15px; display: block; }
+body { font-family: 'Georgia', serif; margin: 0; background-color: #fdfaf6; color: #4e342e; }
+header { background-color: #8d6e63; color: white; padding: 50px 20px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+h1 { margin: 0; font-size: 2.5em; letter-spacing: 2px; }
+.container { max-width: 1000px; margin: auto; padding: 20px; }
+.section-title { border-bottom: 2px solid #d7ccc8; padding-bottom: 10px; margin: 40px 0 20px; text-transform: uppercase; letter-spacing: 1px; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+.card { background: white; border-radius: 4px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.05); position: relative; border: 1px solid #efebe9; }
+.card img { width: 100%; height: 300px; object-fit: cover; background-color: #eee; }
+.card-content { padding: 20px; }
+.status { position: absolute; top: 15px; right: 15px; padding: 5px 15px; border-radius: 20px; font-size: 0.75em; font-weight: bold; }
+.disponivel { background: #4caf50; color: white; }
+.esgotado { background: #b0bec5; color: white; }
+.btn-whats { display: block; background: #25d366; color: white; text-align: center; padding: 12px; text-decoration: none; border-radius: 4px; margin-top: 15px; font-weight: bold; }
+.footer { text-align: center; padding: 40px; color: #a1887f; font-size: 0.9em; }
 </style>
 </head>
 <body>
 
 <header>
-<h1>Minhas Criações Artísticas</h1>
-<p>Peças exclusivas e cenários detalhados feitos à mão.</p>
+<h1>amor.por.miniaturas</h1>
+<p>Arte em miniatura | Escala 1:12</p>
 </header>
 
 <div class="container">
-
-<h2 class="section-title">Disponíveis para Entrega</h2>
+<h2 class="section-title">Disponíveis para Encomenda</h2>
 <div class="gallery">
 <div class="card">
 <span class="status disponivel">Disponível</span>
-<img src="URL_DA_SUA_FOTO_1" alt="Nome da Peça">
-<div class="card-info">
-<h3>Nome da Obra Disponível</h3>
-<p>Detalhes técnicos ou escala da peça.</p>
-<a href="https://wa.me/SEUNUMERO" class="btn-whats">Encomendar via WhatsApp</a>
+<img src="https://via.placeholder.com/400x300?text=Sua+Foto+Aqui" alt="Miniatura">
+<div class="card-content">
+<h3>Nome da Peça</h3>
+<p>Descrição detalhada dos materiais, escala e inspiração da sua obra de arte.</p>
+<a href="https://wa.me/SEUNUMERO" class="btn-whats">Pedir pelo WhatsApp</a>
 </div>
 </div>
 </div>
 
-<h2 class="section-title">Galeria de Obras Realizadas</h2>
+<h2 class="section-title">Galeria de Obras (Esgotadas)</h2>
 <div class="gallery">
 <div class="card">
-<span class="status esgotado">Peça Única - Não Disponível</span>
-<img src="URL_DA_SUA_FOTO_2" alt="Nome da Peça">
-<div class="card-info">
-<h3>Nome da Obra Antiga</h3>
-<p>Esta peça já encontrou um lar.</p>
-<span class="msg-esgotado">Item de Coleção Particular</span>
+<span class="status esgotado">Peça Única - Indisponível</span>
+<img src="https://via.placeholder.com/400x300?text=Obra+Realizada" alt="Miniatura Vendida">
+<div class="card-content">
+<h3>Título da Obra</h3>
+<p>Breve história desta peça que já foi para um colecionador.</p>
 </div>
 </div>
 </div>
+</div>
+
+<div class="footer">
+<p>&copy; amor.por.miniaturas - Feito à mão com carinho.</p>
 </div>
 
 </body>
